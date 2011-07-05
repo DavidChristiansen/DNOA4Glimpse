@@ -1,0 +1,8 @@
+
+*.user
+*.suo
+/output
+/source/DotNetOpenAuth.MVC3.Glimpse/obj
+/source/DotNetOpenAuth.MVC3.Glimpse/bin
+/source/DotNetOpenAuth.MVC3.Glimpse.TestStub/bin
+/source/DotNetOpenAuth.MVC3.Glimpse.TestStub/obj
