@@ -20,7 +20,13 @@ namespace DCCreative.DNOA4Glimpse {
 			get {
 				if (_memoryAppender == null) {
 					Hierarchy h = LogManager.GetRepository() as Hierarchy;
-					_memoryAppender = h.Root.GetAppender("MemoryAppender") as MemoryAppender;
+					var logger = h.GetLogger("DotNetOpenAuth");
+					if (logger == null)
+						return null;
+					var appenders = logger.Repository.GetAppenders().Where(x => x.Name == "MemoryAppender");
+					if (appenders.Any()) {
+						_memoryAppender = appenders.SingleOrDefault() as MemoryAppender;
+					}
 				}
 				return _memoryAppender;
 			}

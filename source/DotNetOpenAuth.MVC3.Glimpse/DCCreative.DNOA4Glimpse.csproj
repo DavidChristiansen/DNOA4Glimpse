@@ -38,9 +38,6 @@
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DCCreative.DNOA4Glimpse, Version=0.9.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DCCreative.DNOA4Glimpse.0.9.2\lib\net40\DCCreative.DNOA4Glimpse.dll</HintPath>
-    </Reference>
     <Reference Include="DotNetOpenAuth">
       <HintPath>..\..\packages\DotNetOpenAuth.3.4.7.11121\lib\DotNetOpenAuth.dll</HintPath>
     </Reference>
