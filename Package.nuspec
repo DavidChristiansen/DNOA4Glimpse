@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>DCCreative.DNOA4Glimpse</id>
-    <version>0.9.2</version>
+    <version>0.9.4</version>
     <title>DotNetOpenAuth plugin for Glimpse</title>
     <authors>David Christiansen</authors>
     <owners>David Christiansen</owners>
