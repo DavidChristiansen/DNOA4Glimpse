@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DotNetOpenAuth.MVC3.Glimpse")]
+[assembly: AssemblyTitle("DCCreative.DNOA4Glimpse.Framework4")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("DCCreative")]
-[assembly: AssemblyProduct("DotNetOpenAuth.MVC3.Glimpse")]
-[assembly: AssemblyCopyright("Copyright © DCCreative 2011")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("DCCreative.DNOA4Glimpse.Framework4")]
+[assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("982544eb-7e2b-4683-892d-4468fbe3bab4")]
+[assembly: Guid("4d8cef9c-61ac-4df7-b4d3-1bfeadd214b6")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.9.4.0")]
-[assembly: AssemblyFileVersion("0.9.4.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

@@ -1,14 +1,25 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCCreative.DNOA4Glimpse", "source\DotNetOpenAuth.MVC3.Glimpse\DCCreative.DNOA4Glimpse.csproj", "{944C05EA-0B92-4EA6-98A4-C843C0E6DDB7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenAuth.MVC3.Glimpse.TestStub", "source\DotNetOpenAuth.MVC3.Glimpse.TestStub\DotNetOpenAuth.MVC3.Glimpse.TestStub.csproj", "{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B6C9A9F-2749-4585-842B-F7911265BBB7}"
 	ProjectSection(SolutionItems) = preProject
 		Package.nuspec = Package.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenAuth.MVC3.Glimpse.TestStub", "source\DotNetOpenAuth.MVC3.Glimpse.TestStub\DotNetOpenAuth.MVC3.Glimpse.TestStub.csproj", "{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D5C32305-6459-453B-82FC-6644F5E08431}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestStubs", "TestStubs", "{D0B55FA3-FFC3-4302-828D-B3A754BBD02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCCreative.DNOA4Glimpse.Framework4", "source\DCCreative.DNOA4Glimpse.Framework4\DCCreative.DNOA4Glimpse.Framework4.csproj", "{208CC13F-1299-4475-A61E-76B925E95461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCCreative.DNOA4Glimpse.Framework4_5", "source\DCCreative.DNOA4Glimpse.Framework4_5\DCCreative.DNOA4Glimpse.Framework4_5.csproj", "{0087D075-5B4F-4EA8-BF55-BC8B6707F915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,16 +27,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{944C05EA-0B92-4EA6-98A4-C843C0E6DDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{944C05EA-0B92-4EA6-98A4-C843C0E6DDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{944C05EA-0B92-4EA6-98A4-C843C0E6DDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{944C05EA-0B92-4EA6-98A4-C843C0E6DDB7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208CC13F-1299-4475-A61E-76B925E95461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208CC13F-1299-4475-A61E-76B925E95461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208CC13F-1299-4475-A61E-76B925E95461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208CC13F-1299-4475-A61E-76B925E95461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0087D075-5B4F-4EA8-BF55-BC8B6707F915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0087D075-5B4F-4EA8-BF55-BC8B6707F915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0087D075-5B4F-4EA8-BF55-BC8B6707F915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0087D075-5B4F-4EA8-BF55-BC8B6707F915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E} = {D0B55FA3-FFC3-4302-828D-B3A754BBD02B}
 	EndGlobalSection
 EndGlobal
