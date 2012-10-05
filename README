@@ -15,6 +15,9 @@ To use DotNetOpenAuth for Glimpse, all you need to do is:
 Release Notes
 -------------
 
+01/10/2012 - 0.9.6.0
+- Using larger graphic in nuget package.
+
 01/10/2012 - 0.9.5.0
 - Update to latest Glimpse distribution.
 - Improved formatting according to event logging level.
