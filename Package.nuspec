@@ -1,31 +1,31 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>DCCreative.DNOA4Glimpse</id>
-    <version>0.9.4</version>
-    <title>DotNetOpenAuth plugin for Glimpse</title>
-    <authors>David Christiansen</authors>
-    <owners>David Christiansen</owners>
-    <licenseUrl>http://www.opensource.org/licenses/ms-pl.html</licenseUrl>
-    <projectUrl>http://www.dotnetopenauth.net/</projectUrl>
-    <iconUrl>https://github.com/AArnott/dotnetopenid/raw/v3.4/doc/logo/dnoa-logo_32x32.png</iconUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>This package is a plugin for Glimpse that provides you a detailed view of all activity from within the DotNetOpenAuth library.
-
-Glimpse - What Firebug is for the client, Glimpse does for the server... in other words, a client side Glimpse into whats going on in your server.</description>
-    <summary>A plugin for Glimpse that provides you a detailed view of all activity from within the DotNetOpenAuth library.</summary>
-    <language>en-GB</language>
-    <tags>glimpse openid oauth</tags>
-    <dependencies>
-      <dependency id="Glimpse.Mvc3" version="0.83" />
-      <dependency id="Glimpse" version="0.83" />
-      <dependency id="DotNetOpenAuth" version="3.4.7.11121" />
-      <dependency id="log4net" version="1.2.10" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="output\DCCreative.DNOA4Glimpse.dll" target="lib\net40" />
-	<file src="output\web.config.transform" target="content" />
-	<file src="output\Readme.txt" target="content\App_Readme\DCCreative.DNOA4Glimpse.Readme.txt" />
-  </files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>DCCreative.DNOA4Glimpse</id>
+        <version>0.9.6-alpha</version>
+        <title>DotNetOpenAuth plugin for Glimpse</title>
+        <authors>David Christiansen</authors>
+        <owners>David Christiansen</owners>
+        <licenseUrl>http://www.opensource.org/licenses/ms-pl.html</licenseUrl>
+        <projectUrl>http://www.dotnetopenauth.net/</projectUrl>
+        <iconUrl>https://raw.github.com/DotNetOpenAuth/DotNetOpenAuth/master/doc/logo/dnoa-logo_64x64.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>This package is a plugin for Glimpse that provides you a detailed view of all activity from within the DotNetOpenAuth library.
+      Glimpse (http://getglimpse.com/) - What Firebug is for the client, Glimpse does for the server... in other words, a client side Glimpse into whats going on in your server.</description>
+        <summary>A plugin for Glimpse that provides you a detailed view of all activity from within the DotNetOpenAuth library.</summary>
+        <language>en-GB</language>
+        <tags>glimpse openid oauth</tags>
+        <dependencies>
+            <dependency id="Glimpse.Mvc3" />
+            <dependency id="Glimpse" />
+            <dependency id="DotNetOpenAuth" />
+            <dependency id="log4net" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="README" target="content\App_Readme\readme.txt\README" />
+        <file src="web.config.transform" target="content\web.config.transform" />
+        <file src="output\net4\DCCreative.DNOA4Glimpse.dll" target="lib\net40\DCCreative.DNOA4Glimpse.dll" />
+        <file src="output\net4.5\DCCreative.DNOA4Glimpse.dll" target="lib\net45\DCCreative.DNOA4Glimpse.dll" />
+    </files>
 </package>
