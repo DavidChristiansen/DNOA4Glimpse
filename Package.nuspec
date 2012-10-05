@@ -14,7 +14,7 @@
       Glimpse (http://getglimpse.com/) - What Firebug is for the client, Glimpse does for the server... in other words, a client side Glimpse into whats going on in your server.</description>
         <summary>A plugin for Glimpse that provides you a detailed view of all activity from within the DotNetOpenAuth library.</summary>
         <language>en-GB</language>
-        <tags>glimpse openid oauth</tags>
+        <tags>glimpse openid oauth dotnetopenauth</tags>
         <dependencies>
             <dependency id="Glimpse.Mvc3" />
             <dependency id="Glimpse" />
