@@ -1,13 +1,20 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B6C9A9F-2749-4585-842B-F7911265BBB7}"
+	ProjectSection(SolutionItems) = preProject
+		Package.nuspec = Package.nuspec
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCCreative.DNOA4Glimpse", "source\DotNetOpenAuth.MVC3.Glimpse\DCCreative.DNOA4Glimpse.csproj", "{944C05EA-0B92-4EA6-98A4-C843C0E6DDB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenAuth.MVC3.Glimpse.TestStub", "source\DotNetOpenAuth.MVC3.Glimpse.TestStub\DotNetOpenAuth.MVC3.Glimpse.TestStub.csproj", "{B2B385B5-8FD9-4C58-8107-586B6A1A0A4E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B6C9A9F-2749-4585-842B-F7911265BBB7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3C9FD0F1-843B-4317-A0E0-957933F22281}"
 	ProjectSection(SolutionItems) = preProject
-		Package.nuspec = Package.nuspec
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Global

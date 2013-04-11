@@ -12,6 +12,8 @@
     <AssemblyName>DCCreative.DNOA4Glimpse</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,14 +43,17 @@
     <Reference Include="DotNetOpenAuth">
       <HintPath>..\..\packages\DotNetOpenAuth.3.4.7.11121\lib\DotNetOpenAuth.dll</HintPath>
     </Reference>
+    <Reference Include="Glimpse.AspNet">
+      <HintPath>..\..\packages\Glimpse.AspNet.1.2.0\lib\net40\Glimpse.AspNet.dll</HintPath>
+    </Reference>
     <Reference Include="Glimpse.Core">
-      <HintPath>..\..\packages\Glimpse.0.83\lib\net40\Glimpse.Core.dll</HintPath>
+      <HintPath>..\..\packages\Glimpse.1.2.0\lib\net40\Glimpse.Core.dll</HintPath>
     </Reference>
     <Reference Include="Glimpse.Mvc3">
-      <HintPath>..\..\packages\Glimpse.Mvc3.0.83\lib\net40\Glimpse.Mvc3.dll</HintPath>
+      <HintPath>..\..\packages\Glimpse.Mvc3.1.2.0\lib\net40\Glimpse.Mvc3.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    <Reference Include="log4net">
+      <HintPath>..\..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -62,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DotNetOpenAuthPlugin.cs" />
+    <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +87,7 @@
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Release "$(SolutionDir)Packages\NuGet.CommandLine.1.4.20615.182\tools\NuGet.exe" pack "$(SolutionDir)Package.nuspec" -OutputDirectory "$(SolutionDir)Builds"</PostBuildEvent>
   </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
