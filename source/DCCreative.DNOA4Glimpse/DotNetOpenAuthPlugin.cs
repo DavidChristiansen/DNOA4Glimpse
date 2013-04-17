@@ -1,15 +1,6 @@
-﻿//-----------------------------------------------------------------------
-// <copyright file="Reporting.cs" company="Andrew Arnott">
-//     Copyright (c) Andrew Arnott. All rights reserved.
-// </copyright>
-//-----------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Web;
-using Glimpse.AspNet.Extensibility;
 using Glimpse.Core.Extensibility;
-using Glimpse.Core.Extensions;
 using Glimpse.Core.Tab.Assist;
 using log4net;
 using log4net.Appender;
@@ -17,7 +8,6 @@ using log4net.Core;
 using log4net.Repository.Hierarchy;
 
 namespace DCCreative.DNOA4Glimpse {
-
     public class DotNetOpenAuthTab : ITab, ITabLayout, ITabSetup, IKey {
         private static readonly object Layout = TabLayout.Create()
                                                          .Row(r => {
