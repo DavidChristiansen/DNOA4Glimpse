@@ -1,0 +1,174 @@
+2013-04-17 23:31:15,786 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:31:15,786 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:31:15,826 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:31:15,826 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:33:05,290 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:33:05,290 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:33:05,348 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:33:05,348 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:35:39,378 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:35:39,378 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:35:39,419 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:35:39,419 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:35:55,612 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:35:55,612 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:35:55,650 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:35:55,650 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:36:28,657 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:36:28,657 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:36:28,694 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:36:28,694 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:37:11,605 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:37:11,605 (GMT+1) [1] DEBUG DotNetOpenAuth.OpenId - .NET Uri class path compression overridden.
+2013-04-17 23:37:11,644 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:37:11,644 (GMT+1) [1] WARN  DotNetOpenAuth.OpenId - Raising minimum OpenID version requirement for Providers to 2.0 to protect this stateless RP from replay attacks.
+2013-04-17 23:38:25,417 (GMT+1) [11] WARN  DotNetOpenAuth.Http - Rejecting URL https://localhost:5555/ because it does not contain a period in the host name..
+2013-04-17 23:38:25,417 (GMT+1) [11] WARN  DotNetOpenAuth.Http - Rejecting URL https://localhost:5555/ because it does not contain a period in the host name..
+2013-04-17 23:38:25,421 (GMT+1) [11] ERROR DotNetOpenAuth.Messaging - Protocol error: The URL 'https://localhost:5555/' is rated unsafe and cannot be requested this way.
+   at DotNetOpenAuth.Messaging.ErrorUtilities.VerifyProtocol(Boolean condition, String unformattedMessage, Object[] args)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.EnsureAllowableRequestUri(Uri requestUri, Boolean requireSsl)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.GetResponse(HttpWebRequest request, DirectWebRequestOptions options)
+   at DotNetOpenAuth.Yadis.Yadis.Request(IDirectWebRequestHandler requestHandler, Uri uri, Boolean requireSsl, String[] acceptTypes)
+   at DotNetOpenAuth.Yadis.Yadis.Discover(IDirectWebRequestHandler requestHandler, UriIdentifier uri, Boolean requireSsl)
+   at DotNetOpenAuth.OpenId.UriDiscoveryService.Discover(Identifier identifier, IDirectWebRequestHandler requestHandler, Boolean& abortDiscoveryChain)
+   at DotNetOpenAuth.OpenId.IdentifierDiscoveryServices.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.AuthenticationRequest.Create(Identifier userSuppliedIdentifier, OpenIdRelyingParty relyingParty, Realm realm, Uri returnToUrl, Boolean createNewAssociationsAsNeeded)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)
+   at DotNetOpenAuth.AspNet.Clients.OpenIdClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)
+   at DotNetOpenAuth.AspNet.OpenAuthSecurityManager.RequestAuthentication(String returnUrl)
+   at Microsoft.Web.WebPages.OAuth.OAuthWebSecurity.RequestAuthenticationCore(HttpContextBase context, String provider, String returnUrl)
+   at Microsoft.Web.WebPages.OAuth.OAuthWebSecurity.RequestAuthentication(String provider, String returnUrl)
+   at TestStubMVC4.Controllers.AccountController.ExternalLoginResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Castle.Proxies.AsyncControllerActionInvokerProxy.InvokeActionResult_callback(ControllerContext controllerContext, ActionResult actionResult)
+   at Castle.Proxies.Invocations.ControllerActionInvoker_InvokeActionResult.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Glimpse.Core.Extensibility.CastleInvocationToAlternateMethodContextAdapter.Proceed()
+   at Glimpse.Core.Extensibility.ExecutionTimer.Time(Action action)
+   at Glimpse.Core.Extensions.AlternateMethodContextExtensions.TryProceedWithTimer(IAlternateMethodContext context, TimerResult& timerResult)
+   at Glimpse.Core.Extensibility.AlternateMethod.NewImplementation(IAlternateMethodContext context)
+   at Glimpse.Core.Extensibility.AlternateTypeToCastleInterceptorAdapter.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.AsyncControllerActionInvokerProxy.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+
+2013-04-17 23:38:25,421 (GMT+1) [11] ERROR DotNetOpenAuth.Messaging - Protocol error: The URL 'https://localhost:5555/' is rated unsafe and cannot be requested this way.
+   at DotNetOpenAuth.Messaging.ErrorUtilities.VerifyProtocol(Boolean condition, String unformattedMessage, Object[] args)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.EnsureAllowableRequestUri(Uri requestUri, Boolean requireSsl)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.GetResponse(HttpWebRequest request, DirectWebRequestOptions options)
+   at DotNetOpenAuth.Yadis.Yadis.Request(IDirectWebRequestHandler requestHandler, Uri uri, Boolean requireSsl, String[] acceptTypes)
+   at DotNetOpenAuth.Yadis.Yadis.Discover(IDirectWebRequestHandler requestHandler, UriIdentifier uri, Boolean requireSsl)
+   at DotNetOpenAuth.OpenId.UriDiscoveryService.Discover(Identifier identifier, IDirectWebRequestHandler requestHandler, Boolean& abortDiscoveryChain)
+   at DotNetOpenAuth.OpenId.IdentifierDiscoveryServices.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.AuthenticationRequest.Create(Identifier userSuppliedIdentifier, OpenIdRelyingParty relyingParty, Realm realm, Uri returnToUrl, Boolean createNewAssociationsAsNeeded)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.CreateRequests(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.CreateRequest(Identifier userSuppliedIdentifier, Realm realm, Uri returnToUrl)
+   at DotNetOpenAuth.AspNet.Clients.OpenIdClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)
+   at DotNetOpenAuth.AspNet.OpenAuthSecurityManager.RequestAuthentication(String returnUrl)
+   at Microsoft.Web.WebPages.OAuth.OAuthWebSecurity.RequestAuthenticationCore(HttpContextBase context, String provider, String returnUrl)
+   at Microsoft.Web.WebPages.OAuth.OAuthWebSecurity.RequestAuthentication(String provider, String returnUrl)
+   at TestStubMVC4.Controllers.AccountController.ExternalLoginResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Castle.Proxies.AsyncControllerActionInvokerProxy.InvokeActionResult_callback(ControllerContext controllerContext, ActionResult actionResult)
+   at Castle.Proxies.Invocations.ControllerActionInvoker_InvokeActionResult.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Glimpse.Core.Extensibility.CastleInvocationToAlternateMethodContextAdapter.Proceed()
+   at Glimpse.Core.Extensibility.ExecutionTimer.Time(Action action)
+   at Glimpse.Core.Extensions.AlternateMethodContextExtensions.TryProceedWithTimer(IAlternateMethodContext context, TimerResult& timerResult)
+   at Glimpse.Core.Extensibility.AlternateMethod.NewImplementation(IAlternateMethodContext context)
+   at Glimpse.Core.Extensibility.AlternateTypeToCastleInterceptorAdapter.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.AsyncControllerActionInvokerProxy.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+
+2013-04-17 23:38:25,559 (GMT+1) [11] ERROR DotNetOpenAuth.Yadis - Error while performing discovery on: "https://localhost:5555/": DotNetOpenAuth.Messaging.ProtocolException: The URL 'https://localhost:5555/' is rated unsafe and cannot be requested this way.
+   at DotNetOpenAuth.Messaging.ErrorUtilities.VerifyProtocol(Boolean condition, String unformattedMessage, Object[] args)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.EnsureAllowableRequestUri(Uri requestUri, Boolean requireSsl)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.GetResponse(HttpWebRequest request, DirectWebRequestOptions options)
+   at DotNetOpenAuth.Yadis.Yadis.Request(IDirectWebRequestHandler requestHandler, Uri uri, Boolean requireSsl, String[] acceptTypes)
+   at DotNetOpenAuth.Yadis.Yadis.Discover(IDirectWebRequestHandler requestHandler, UriIdentifier uri, Boolean requireSsl)
+   at DotNetOpenAuth.OpenId.UriDiscoveryService.Discover(Identifier identifier, IDirectWebRequestHandler requestHandler, Boolean& abortDiscoveryChain)
+   at DotNetOpenAuth.OpenId.IdentifierDiscoveryServices.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.AuthenticationRequest.Create(Identifier userSuppliedIdentifier, OpenIdRelyingParty relyingParty, Realm realm, Uri returnToUrl, Boolean createNewAssociationsAsNeeded)
+2013-04-17 23:38:25,559 (GMT+1) [11] ERROR DotNetOpenAuth.Yadis - Error while performing discovery on: "https://localhost:5555/": DotNetOpenAuth.Messaging.ProtocolException: The URL 'https://localhost:5555/' is rated unsafe and cannot be requested this way.
+   at DotNetOpenAuth.Messaging.ErrorUtilities.VerifyProtocol(Boolean condition, String unformattedMessage, Object[] args)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.EnsureAllowableRequestUri(Uri requestUri, Boolean requireSsl)
+   at DotNetOpenAuth.Messaging.UntrustedWebRequestHandler.GetResponse(HttpWebRequest request, DirectWebRequestOptions options)
+   at DotNetOpenAuth.Yadis.Yadis.Request(IDirectWebRequestHandler requestHandler, Uri uri, Boolean requireSsl, String[] acceptTypes)
+   at DotNetOpenAuth.Yadis.Yadis.Discover(IDirectWebRequestHandler requestHandler, UriIdentifier uri, Boolean requireSsl)
+   at DotNetOpenAuth.OpenId.UriDiscoveryService.Discover(Identifier identifier, IDirectWebRequestHandler requestHandler, Boolean& abortDiscoveryChain)
+   at DotNetOpenAuth.OpenId.IdentifierDiscoveryServices.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.OpenIdRelyingParty.Discover(Identifier identifier)
+   at DotNetOpenAuth.OpenId.RelyingParty.AuthenticationRequest.Create(Identifier userSuppliedIdentifier, OpenIdRelyingParty relyingParty, Realm realm, Uri returnToUrl, Boolean createNewAssociationsAsNeeded)
+2013-04-17 23:38:25,565 (GMT+1) [11] INFO  DotNetOpenAuth.Yadis - Performing discovery on user-supplied identifier: https://localhost:5555/
+2013-04-17 23:38:25,565 (GMT+1) [11] INFO  DotNetOpenAuth.Yadis - Performing discovery on user-supplied identifier: https://localhost:5555/
+2013-04-17 23:38:25,567 (GMT+1) [11] DEBUG DotNetOpenAuth.Yadis - Filtering and sorting of endpoints did not affect the list.
+2013-04-17 23:38:25,567 (GMT+1) [11] DEBUG DotNetOpenAuth.Yadis - Filtering and sorting of endpoints did not affect the list.
