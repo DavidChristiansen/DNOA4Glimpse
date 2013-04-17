@@ -53,7 +53,7 @@ To use DotNetOpenAuth for Glimpse, all you need to do is:
 
 ##Help?
 
-Refer to the two test stubs I have created in the source.
+Refer to the test stub I created in the source.
 
 ##Release Notes
 
