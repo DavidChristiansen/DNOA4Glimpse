@@ -4,7 +4,7 @@ https://github.com/DavidChristiansen/DNOA4Glimpse
 Thank you so much for using this DotNetOpenAuth plugin for Glimpse.
 
 ##Using it
-------------------------------------------------------------------------------------------------------------------------------------------
+
 To use DotNetOpenAuth for Glimpse, all you need to do is:
 
 1. Add a config section declaration into your web.config
@@ -51,13 +51,11 @@ To use DotNetOpenAuth for Glimpse, all you need to do is:
     log4net.Config.XmlConfigurator.Configure();
 ````
 
-Help?
-------------------------------------------------------------------------------------------------------------------------------------------
+##Help?
 
 Refer to the two test stubs I have created in the source.
 
-Release Notes
-------------------------------------------------------------------------------------------------------------------------------------------
+##Release Notes
 
 14/04/2013 - 1.3.0
 - Update to Glimpse 1.3.0
