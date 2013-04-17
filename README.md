@@ -1,4 +1,5 @@
-Glimpse for DotNetOpenAuth
+#Glimpse for DotNetOpenAuth
+
 https://github.com/DavidChristiansen/DNOA4Glimpse
 
 Thank you so much for using this DotNetOpenAuth plugin for Glimpse.
