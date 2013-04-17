@@ -3,16 +3,19 @@ https://github.com/DavidChristiansen/DNOA4Glimpse
 
 Thank you so much for using this DotNetOpenAuth plugin for Glimpse.
 
-#Using it
+##Using it
 ------------------------------------------------------------------------------------------------------------------------------------------
 To use DotNetOpenAuth for Glimpse, all you need to do is:
 
 1. Add a config section declaration into your web.config
 
+````
     <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler" requirePermission="false" />
+````
 
 2. Ensure you have configured log4net to log DotNetOpenAuth events to a MemoryAppender instance. Here is an example
 
+````
   <log4net>
     <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">
       <file value="teststub.log" />
@@ -40,11 +43,13 @@ To use DotNetOpenAuth for Glimpse, all you need to do is:
       <appender-ref ref="RollingFileAppender" />
     </logger>
   </log4net>
+````
 
 3. Be sure to initialise log4net when your application starts.
 
+````
     log4net.Config.XmlConfigurator.Configure();
-
+````
 
 Help?
 ------------------------------------------------------------------------------------------------------------------------------------------
